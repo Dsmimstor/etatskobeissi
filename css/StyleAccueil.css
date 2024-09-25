@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.slogan .nav1 a{
+	font-family: "Poppins" , sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	background: linear-gradient(0deg, rgb(233, 7, 7), rgb(250, 240, 229));
+	background-image: url(/img/LogoSALS1.png);
+	color: aliceblue;
+	background-size: cover;
+	background-position: center;
+}
+.side-bar {
+	background: hsl(160, 100%, 99%);
+	width: 240px;
+	left: -240px;
+	height: 97vh;
+	position: fixed;
+	top: 0;
+	overflow-y: auto;
+	transition: 0.6s ease;
+	transition-property: left;
+	display: inline-block;
+}
+
+header{
+	/*background:#54575a;*/
+	/*background: linear-gradient(0deg, rgb(3, 50, 192), rgb(116, 158, 222));*/
+	background:linear-gradient(0deg, rgb(176 180 193), rgb(212 216 224));
+	height: 100px;
+}
+header img {
+	width: 100px;
+	height: 100px;
+	max-height: 90px;
+	margin: 0px;
+	margin-left: 80px;
+	border-radius: 50%;
+
+	border: 3px solid ;
+}
+
+.nav1 img {
+/*	width: 100px;
+	height: 100px;*/
+	max-height: 90px;
+	margin: 5px;
+	margin-left: 20px;
+ 	border-radius: 0%;
+	border: 3px solid ;
+
+}
+
+.close-btn {
+	position:absolute;
+	color: black;
+	font-size: 23px;
+	right: 0px;
+	margin: 15px;
+	cursor: pointer;
+}
+.close-btn1 {
+	cursor: pointer;
+}
+header h1{
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 23px;
+	font-family: sans-serif;
+	letter-spacing: 2px;   
+	color: black;
+}
+.menu{
+	width: 100%;
+	margin-top: 30px;
+}
+.menu .item{
+	position: relative;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+
+.menu .item a{
+	color:#b45050;
+	
+	
+	/*font-weight: bold;*/
+	text-decoration: none;
+	display: block;
+	padding: 5px 15px;
+	line-height: 60px;
+}
+
+.item i{
+	margin-right: 13px;
+}
+.item a .dropdown {
+	position: absolute;
+	right: 0;
+	margin: 22px;
+	margin-right: 10px;
+	transition: 0.3s ease;
+}
+.item .sub-menu {
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu1{
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu2 {
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu3 {
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu4 {
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu1 {
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu2 {
+	background: #c8c7ce;
+	display:none;
+}
+.item .sub-menu3 {
+	background: #c8c7ce;
+	display:none;
+}.item .sub-menu4 {
+	background: #c8c7ce;
+	display:none;
+}
+
+.menu-btn{
+	position: absolute;
+	color: black;
+	font-size: 25px;
+	cursor: pointer;
+	margin: 20px;
+}
+.side-bar.active{
+	left: 0;
+}
+.side-bar::-webkit-scrollbar{
+	width: 0px;
+}
+
+.item .sub-menu a{
+	padding-left: 40px;
+	color: black;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.sub-item a{
+	font-size: 13px;
+}
+
+.item .sub-menu a:hover {
+ background-color: #b1ae9f;
+}
+.rotate{
+	transform: rotate(90deg);
+}
+
+.nav1 img{
+	left: 10px;
+}
+.slogan {
+	text-align:start;
+	font-size: 35px;
+	font-family: "Dancing Script", cursive;
+	text-shadow: 1px 1px #87a3bb;
+}
+.nav1 .slogan a{
+	color: black;
+}
+.menugene {
+	/*border: 1px solid black;*/
+	width: 260px;
+	height: 85vh;
+}
+
+.centretrav {
+	/*border: 1px solid black;*/
+	width: 80%;
+	color: black;
+	height: 87vh;
+	font-size: 18px;
+}
+/*@media screen and (min-width:1500px){
+	.centretrav{
+		font-size: 1vw;
+	}
+	.menu .item a{
+		font-size: 14px;
+	}
+}*/
+
+/*@media screen and (max-width:1500px){
+	.centretrav{
+	
+		font-size: 12px;
+	
+	}
+	.menu .item a{
+		font-size: 12px;
+	}
+
+}
+@media screen and (max-width:800px){
+	.centretrav{
+
+		font-size: 12px;
+	}
+}
+@media screen and (max-width:480px){
+	.centretrav{
+
+		font-size: 12px;
+	}
+}*/
+.total {
+	display: flex;
+}
+.container-fluid {
+   text-align: center;
+	background-color: #847a78;
+	display: flex;
+	justify-content: space-between;
+/*	height: 46px;*/
+	
+}
+
+
+.total1 {
+	display: flex;
+	flex-direction: column;
+}
+
+
+#time {
+  /*font-size: 30px;*/
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}

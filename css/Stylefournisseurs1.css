@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.slogan .nav1 a{
+	font-family: "Poppins" , sans-serif;
+}
+body{
+	min-height: 100vh;
+	background: linear-gradient(0deg,rgb(3, 50, 192), rgb(116, 158, 222));
+	background-image: url(/img/LogoSALS1.png);
+	color: rgb(7, 24, 39);
+	background-size: cover;
+	background-position: center;
+}
+
+header{
+	/*background:#54575a;*/
+	background:linear-gradient(0deg, rgb(176 180 193), rgb(212 216 224));
+	height: 100px;
+}
+header img {
+	width: 100px;
+	height: 100px;
+	max-height: 90px;
+	margin: 0px;
+	margin-left: 80px;
+	border-radius: 50%;
+
+	border: 3px solid ;
+}
+
+.nav1 img {
+	/*	width: 100px;
+	height: 100px;*/
+	max-height: 90px;
+	margin: 5px;
+	margin-left: 20px;
+	border-radius: 0%;
+	border: 3px solid ;
+
+}
+
+header h1{
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 23px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	color: black;
+}
+.menu{
+	width: 100%;
+	margin-top: 30px;
+}
+.menu .item{
+	position: relative;
+	cursor: pointer;
+}
+.menu .item a{
+	color:#b45050;
+	/*	font-size: 14px;*/
+	font-family: cursive;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding: 5px 15px;
+	line-height: 60px;
+}
+
+.slogan {
+	text-align:start;
+	font-size: 35px;
+	font-family: "Dancing Script", cursive;
+	text-shadow: 1px 1px #eff4f8;
+}
+
+.nav1 .slogan a{
+	color: black;
+}
+
+thead th {
+	background-color:rgba(204, 130, 86,0.9);
+	position: sticky;
+	top: 0;
+	color: rgb(16, 59, 97);
+	width: 200px;
+	text-align: center;
+}
+
+.T1 {
+    color: rgb(16, 109, 66);
+    width: 50px;
+    font-size:17px ;
+}
+
+.T2{
+	width: auto;
+	font-size:17px ;
+	font-family:sans-serif;
+	color: black;
+    width: 200px;
+}
+.T3{
+	width: 160px;
+	font-size:17px ;
+	font-family: sans-serif;
+	color: black;
+    text-align: center;
+}
+.T4{
+	width: 100px;
+	font-size:17px ;
+	font-family: sans-serif;
+	color: black;
+    text-align: center;
+}
+
+.T5{
+	width: 100px;
+	font-size:15px ;
+	font-family: sans-serif;
+	font-size: 17px;
+    text-align: center;
+	color: black;
+}
+.T6{
+	width: 190px;
+	font-size:17px ;
+	font-family: sans-serif;
+	color: black;
+    text-align: center;
+}
+
+.T7{
+	width: 150px;
+	font-size:17px ;
+	font-family: sans-serif;
+	color: black;
+}
+
+.T8{
+	width: 50px;
+	font-size:17px ;
+	font-family: sans-serif;
+	color: black;
+}
+td{
+
+	font-size: 15px;
+}
+
+.fa-2x{
+	font-size: 17px ;
+	cursor: pointer;
+}
+
+.btn-quitte{
+	align-items: flex-end;
+	cursor: pointer;
+}
+
+.form-control{
+	text-align: left;
+}
+#ecode .form-control{
+	text-align: left;
+}

@@ -1,0 +1,125 @@
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+header .row {
+  min-height: 90vh;
+  background-image: url(/img/LogoSALS.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .formReservation {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Raleway";
+}
+
+header h2 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 50px;
+}
+
+header .slogan {
+  display: flex;
+  min-height: 76vh;
+  align-items: flex-end;
+  justify-content: flex-end; 
+}
+  @media (max-width: 768px) {
+    header .slogan {
+      display: nome;
+    }
+  }
+
+  #presentation .d-flex span{
+    color: #0d0ab4;
+    font-size:3rem;
+    width: 13rem;
+    text-align: justify;
+  }
+
+  #presentation .text-justify{
+    text-align: justify;
+  }
+
+  #presentation .d-flex{
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    /*effet*/
+    transition: all 0.5s ease-in-out;
+
+  }
+  #presentation .d-flex:hover{
+    background-color: rgba(196, 188, 188,0.5);
+
+  }
+
+  .avisclient{
+    min-height: calc(100vh-50px);
+    background-color: #d3dae4;
+  }
+
+  .avisclient span{
+    font-size: 5rem;
+    color: #17a2b8;
+  }
+  .avisclient h5{
+    font-size:2rem ;
+    counter-reset: #888;
+  }
+
+  .fondmagasin{
+    min-height: calc(100vh-50px);
+    background-image: url(/img/LogoSALS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #contact{
+    background-image: url(/img/LogoSALS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh-50px);
+  }
+
+  #contact .row{
+    min-height: calc(100vh-50px);
+  }
+  .formulairecontact{
+    background-color:rgb(243, 235, 235,0.5);
+    padding: 2rem 1rem;
+  }
+
+  footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #999;
+    padding: top 2rem; ;
+    padding-bottom: 1.5rem;
+
+  }
+  footer a{
+    color: #999;
+    font-size: 2rem;
+    transition: all  .2s;
+  }
+
+  footer a:hover{
+    color: #fff;
+    text-decoration: none;
+  }

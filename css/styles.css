@@ -1,0 +1,245 @@
+
+.pagecnx{
+	/*background: #100dda;*/
+	background-image: url(../img/Arriereplan.PNG);
+	background-size: cover;
+	/* ne pas repeter l'image de fond */
+	background-repeat: no-repeat;
+	/*position de l'image de fond*/
+	background-position: center center;
+	color: rgb(194, 148, 130);
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.panneau{
+
+	background-color:white;
+	box-shadow: 6px 3px 1px #000;
+	margin: 0px 15%;
+	border-radius: 20px;
+	width: 450px;
+
+}
+.contenuPanneau{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid white;
+	margin: 15px;
+	padding: 20px 50px;
+	border-radius: 10px;
+
+}
+
+
+.pagecnx img{
+	max-width: 40px;
+}
+
+
+/*
+*{
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+box-sizing: border-box;
+}
+
+
+html,body {
+height: 100%
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+
+font-family: arial;
+
+}
+
+
+label {
+position: relative;
+}
+
+label  input{
+font-size: 1em;
+background: transparent;
+color: #f9f9f9;
+border: 2px solid #7a7a7a;
+border-radius: 5px;
+padding: 1rem 1.2rem;
+width: 250px;
+height: 10px;
+transition: all 0.2s;
+
+}
+
+label  input:focus{
+border-color:aliceblue;
+}
+
+
+
+*/
+
+
+
+
+
+
+
+/* deuxieme style*/
+
+.global {
+
+	margin: 2px;
+	font-family: arial;
+	width: 100%;
+
+}
+
+
+label .mdpcache{
+	position: relative;
+}
+
+
+/*.password-icon {
+align-items: center;
+position: absolute;
+top: 55.5%;
+/*	transform: translateY(40%);*/
+/*	transform: translateY(100%);*/
+/*	width: 30px;
+color: black;          
+transition: all 0.2s;
+right: 20px;
+border: 1px slod black;
+
+}*/
+
+
+@media screen and (min-width:1500px){
+	.password-icon {
+		align-items: center;
+		position: absolute;
+		top: 55.5%;
+		transform: translateY(100%);
+
+		width: 30px;
+		color: black;          
+		transition: all 0.2s;
+		right: 800px;
+		border: 1px slod black;
+
+	}
+}
+@media screen and (max-width:1500px){
+	.password-icon {
+		align-items: center;
+		position: absolute;
+		top: 55.5%;
+		transform: translateY(90%);
+
+		width: 30px;
+		color: black;          
+		transition: all 0.2s;
+		right: 520px;
+		border: 1px slod black;
+
+	}
+}
+
+
+/*@media screen and (max-width:480px){
+.password-icon{
+align-items: center;
+position: absolute;
+top: 55.5%;
+transform: translateY(40%);
+width: 30px;
+color: black;          
+transition: all 0.2s;
+right: 20px;
+border: 1px slod black;
+}
+} */
+
+
+label .password-icon .feather-eye-off{
+	display: none;
+}
+.password-icon:hover {
+	cursor: pointer;
+	color: #ff4754;
+}
+
+.input-form{
+	display: flex;
+	flex-direction:column-reverse;
+	margin: 1.2em 0;
+
+}
+.input-form input, label, .submit-form button{
+	transition: all 0.3s;
+}
+
+.input-form label{
+	transform: translate(10px, -15px);
+	cursor: text;
+	transform-origin: left top;
+	position: absolute;
+	color: black;
+}
+.input-form input{
+	padding: 10px;
+	border: none; outline: none;
+	border-bottom: 2px solid grey;
+}
+
+.submit-form button{
+	border: 0; padding: 10px 15px;
+	cursor: pointer;
+	color: white;
+	background-color: #ff9234;
+}
+
+.Valider:focus, .Valider:hover{
+	background-color: aqua;
+	color: black;
+}
+
+.Annuler:focus, .Annuler:hover{
+	background-color: #eb5198;
+	color: black;
+}
+
+.submit-form {
+	text-align: right;
+}
+
+.input-form input::placeholder{
+	opacity: o;
+}
+
+.input-form input:focus,
+.input-form input:not(:placeholder-shown){
+	border-bottom: 2px solid red;
+}
+
+.input-form input:not(:placeholder-shown) ~ label,
+input:focus ~ label{
+	transform: translate(10px, -30px) scale(.8);
+}
+
+

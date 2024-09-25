@@ -1,0 +1,135 @@
+.navbar-brand img {
+  max-height: 60px;
+}
+.avatar img {
+  max-height: 90px;
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+header .row {
+  min-height:90vh;
+  background-image: url(../img/Arriereplan.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items:center;
+  color: white;
+  
+}
+header .formAdministrateur {
+  background-color: rgba(0, 0, 0, 0.2);
+  width:225px ;  
+  min-height: 95vh;
+ 
+  display: flex;
+  align-items:flex-start;
+ margin-top:auto;
+ 
+}
+#formAdministrateur .text-justify{
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #999;
+    padding: top 2rem; ;
+    padding-bottom: 1.5rem;
+  }
+  footer a{
+    color: #999;
+    font-size: 3rem;
+    transition: all  .2s;
+  }
+  footer a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+.navbar{
+    /*background: linear-gradient(0deg, rgb(175, 112, 76), rgb(230, 167, 125));*/
+    background: linear-gradient(0deg, rgb(204, 130, 86), rgb(250, 240, 229));
+    height: 100px;
+}
+
+.panneau{
+    background-color: rgba(221, 172, 133, 0.95);
+    box-shadow: 6px 3px 1px #000;
+    margin: 0px 15%;
+    border-radius: 20px;
+}
+.contenuPanneau{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    margin: 15px;
+    padding: 20px 50px;
+     border-radius: 10px;
+}
+.navbar-collapse{
+    /*background: linear-gradient(0deg, rgb(175, 112, 76), rgb(230, 167, 125));*/
+    background: linear-gradient(0deg, rgb(204, 130, 86), rgb(250, 240, 229));
+    height: 100px;
+}
+.avatar{
+    height: 90px;
+    padding-right: 15px;
+}
+
+.btncmd1 , .btncmd2, .btncmd3, .btncmd4 , .btncmd5, .btncmd6{
+  /*  background-color: rgba(221, 172, 133, 0.95);*/
+    width: 200px;
+    height: 30px;
+    font-size: .9rem;
+    
+    text-align: center;
+    margin: auto
+    padding: 0.5rem;
+    
+    border-radius: 5px;
+    /*effet*/
+    transition: all 0.5s ease-in-out;
+    color:brown;
+}
+
+.btncmd7{
+  /*  background-color: rgba(0, 0, 0, 0.95);*/
+    width: 200px;
+    height: 70;
+    opacity: 0;
+    
+    text-align: center;
+    margin: auto
+    padding: 0.5rem;
+   cursor:all-scroll;
+}
+
+.btncmd8{
+  /*  background-color: rgba(221, 172, 133, 0.95);*/
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
+    
+    text-align: center;
+    margin: auto
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    /*effet*/
+    transition: all 0.5s ease-in-out;
+    color:brown;
+    align-items:center;
+}
+.btnAdm{
+ /*   background-color: rgba(0, 0, 0, 0.2);*/
+    
+}
+.Pseudo{
+    color:black;
+    padding-right: 20px;
+    font-size: 1rem;
+}
